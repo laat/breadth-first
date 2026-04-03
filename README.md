@@ -15,6 +15,8 @@ $ npm install breadth-first
 
 We want to traverse the following graph.
 
+![demo graph](https://cdn.rawgit.com/laat/breadth-first/main/graph.svg)
+
 ```js test:all
 import bfs from "breadth-first";
 
