@@ -1,0 +1,37 @@
+{
+  "name": "breadth-first",
+  "description": "Breadth-first search for directed graphs",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": "./index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Sigurd Fosseng",
+    "email": "sigurd@fosseng.net",
+    "url": "https://github.com/laat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laat/breadth-first.git"
+  },
+  "scripts": {
+    "test": "node --test index.test.js && readme-assert"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "keywords": [
+    "breadth first search",
+    "bfs",
+    "graphs",
+    "graph",
+    "dependencies",
+    "directed graphs"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "readme-assert": "^7.0.0"
+  }
+}
